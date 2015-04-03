@@ -1,0 +1,44 @@
+/************************
+Auther:"m-shibata"
+Version:"ver1.0"
+Build:2015-04-03 17:57:52
+************************/
+
+pre_u-color__macyaGreen {
+  color: #8ac00b;
+}
+pre_u-bgColor__macyaGreen {
+  background-color: #8ac00b;
+}
+pre_u-color__skyBlue {
+  color: #0070cb;
+}
+pre_u-bgColor__skyBlue {
+  background-color: #0070cb;
+}
+pre_u-color__limeGreen {
+  color: #4aae00;
+}
+pre_u-bgColor__limeGreen {
+  background-color: #4aae00;
+}
+pre_u-color__eRed {
+  color: #900;
+}
+pre_u-bgColor__eRed {
+  background-color: #900;
+}
+span::before {
+  content: 'LKJIHGFEDCBA';
+  background-color: #bdc6b6;
+}
+.foo {
+  color: #8ac00b;
+}
+.bar {
+  color: #900;
+}
+.bar2,
+.bar3 {
+  color: #4aae00;
+}

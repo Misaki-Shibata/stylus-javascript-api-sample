@@ -1,0 +1,27 @@
+use('stylus_add_func.js')
+unquote(comment("m-shibata", "ver1.0"))
+color = {
+  macyaGreen : #8ac00b,
+  skyBlue   : #0070cb,
+  limeGreen  : #4aae00,
+  eRed   : #990000,
+}
+for k, value in color
+  {pre_u}-color__{k}
+    color: value
+  {pre_u}-bgColor__{k}
+    background-color: value
+
+span::before
+  content reverse("ABCDEFGHIJKL")
+  background-color randomColor()
+
+.foo
+  color color['macyaGreen']
+
+.bar
+  color color['eRed']
+
+.bar2
+.bar3
+  color color['limeGreen']
